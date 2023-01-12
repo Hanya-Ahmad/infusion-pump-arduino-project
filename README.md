@@ -1,34 +1,22 @@
 
-# Infusion pump / ICU monitor prototype.
+# Project Description
+This project is a prototype for an infusion pump device controlled using a mobile application which displays the ICU monitor vital signals; in our project's case, heart rate.
+When the heart rate is outside of the normal range the infusion pump changes the speed of infusion of the drug.
 
-# video demo
-
-
-https://user-images.githubusercontent.com/89668727/210170470-487194ef-cf14-48da-ba94-601b862ab763.mp4
-
-
-# Description
-Our project is a demo for an infusion pump that is controlled by the vital signs of the patient (in this case, heart rate)
-# Components used 
-1. Stepper motor (from recycled cd rom [learn more](https://www.youtube.com/watch?v=xJxB2O2FsAo))
+## Components  
+1. Stepper motor (from recycled CD ROM [learn more](https://www.youtube.com/watch?v=xJxB2O2FsAo))
 2. Arduino Uno board
 3. Heart Rate sensor ([get it here](https://ram-e-shop.com/product/kit-pulse-rate/))
-4. H bridge (L298N module) ([get it here](https://ram-e-shop.com/product/kit-l298-red/)) 
-5. Arduino Bluetooth module ([get it here](https://ram-e-shop.com/product/kit-bluetooth-hc05/))
-6. Medical syringe
+4. H-bridge (L298N module) ([get it here](https://ram-e-shop.com/product/kit-l298-red/)) 
+5. Arduino Bluetooth Module ([get it here](https://ram-e-shop.com/product/kit-bluetooth-hc05/))
+6. Medical Syringe
 
-# How to use
-The sensor is placed on the patient's hand to measure the heart rate. 
+# Demo
+https://user-images.githubusercontent.com/89668727/210170470-487194ef-cf14-48da-ba94-601b862ab763.mp4
 
-When the heart rate is outside the normal range the infusion pump changes the speed of infusion of the drug.
+# How to Use
+The sensor is placed on the patient's hand to measure their heart rate. 
+
 # Limitations
-- Heart rate sensor is not accurate enough / not in contact at all times
-- Stepper motor might not be strong enough for viscous infusion solutions
-- 
-## by Team 14 For SBME 2024 medical instrumentation course
-1.  Sherif Ahmed
-2.  Ahmed El-Sarta
-3.  Dina Khaled
-4.  Omniya Sayed
-5.  Alaa Yasser
-6.  Hanya Ahmed
+- Heart rate sensor is not highly accurate and has high risk of losing skin-contact
+- Stepper motor might not be strong enough for viscous infusion drugs
